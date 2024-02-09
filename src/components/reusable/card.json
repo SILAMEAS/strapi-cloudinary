@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_reusable_cards",
+  "info": {
+    "displayName": "Card",
+    "icon": "folder",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "descrition": {
+      "type": "text"
+    },
+    "Img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "price": {
+      "type": "decimal"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_menu_dropdowns",
+  "info": {
+    "displayName": "Dropdown",
+    "icon": "arrowDown"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "sections": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::section.section"
+    }
+  }
+}
